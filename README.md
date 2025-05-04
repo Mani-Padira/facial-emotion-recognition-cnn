@@ -22,3 +22,29 @@ This project uses a **Convolutional Neural Network (CNN)** to detect human emoti
 git clone https://github.com/YOUR_USERNAME/facial-emotion-recognition-cnn.git
 cd facial-emotion-recognition-cnn
 
+### 2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+### 3. **Launch the App**
+   ```bash
+   streamlit run app.py
+---
+
+## 📊 Dataset
+
+Commonly used dataset: FER2013 - Facial Expression Recognition
+
+---
+
+## 🧠 Model Details
+
+CNN architecture trained on facial emotion image data
+Input: Grayscale 48x48 facial images
+Output: Emotion labels (e.g., Angry, Happy, Sad, Neutral)
+Trained using train_model.ipynb
+
+---
+
+## ✍️ Author
+
+Manikanta Padira
