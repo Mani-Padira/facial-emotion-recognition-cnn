@@ -1,49 +1,53 @@
-# 😊 Facial Emotion Recognition App using CNN and Streamlit
+# Facial Emotion Recognition App using CNN & Streamlit
 
-This project uses a **Convolutional Neural Network (CNN)** to detect human emotions from facial expressions. It features a **Streamlit web application** where users can upload or capture images and get real-time emotion predictions.
-
----
-
-## 📌 Key Features
-
-- 🧠 **CNN-based emotion classification**
-- 🎭 Recognizes emotions like **Happy, Sad, Angry, Neutral**, etc.
-- 💻 **Streamlit-powered interactive UI**
-- 📷 Image upload or live camera support (optional)
-- 📊 Visual feedback with predicted label
+A powerful **CNN-based application** that detects human emotions from facial expressions, featuring a smooth **Streamlit interface** for real-time emotion recognition.
 
 ---
 
-## 🚀 Running the App Locally
+## 🔍 Features
 
-### 1. Clone the Repository
+* 🧠 **Deep Learning with CNN** for emotion classification
+* 🎭 Detects emotions like **Happy**, **Sad**, **Angry**, **Neutral**, etc.
+* 💻 Interactive **Streamlit UI** for ease of use
+* 📷 Supports **image upload** or **live webcam** (optional)
+* 📊 Instant visual feedback with emotion labels
+
+---
+
+## 🚀 Get Started Locally
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/facial-emotion-recognition-cnn.git
 cd facial-emotion-recognition-cnn
+```
 
-### 2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-### 3. **Launch the App**
-   ```bash
-   streamlit run app.py
----
+### 2️⃣ Install Dependencies
 
-**## 📊 Dataset**
+```bash
+pip install -r requirements.txt
+```
 
-Commonly used dataset: FER2013 - Facial Expression Recognition
+### 3️⃣ Launch the App
 
----
-
-**## 🧠 Model Details**
-CNN architecture trained on facial emotion image data
-Input: Grayscale 48x48 facial images
-Output: Emotion labels (e.g., Angry, Happy, Sad, Neutral)
-Trained using train_model.ipynb
+```bash
+streamlit run app.py
+```
 
 ---
 
-**## ✍️ Author**
+## 🧠 Model Overview
 
-Manikanta Padira
+* **Architecture**: Custom Convolutional Neural Network (CNN)
+* **Input**: Grayscale facial images (48x48)
+* **Output**: Emotion labels — e.g., `Angry`, `Happy`, `Sad`, `Neutral`
+* **Training Notebook**: `train_model.ipynb`
+* **Dataset**: [FER-2013 (Facial Expression Recognition)](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+
+---
+
+## 👤 Author
+
+**Manikanta Padira**
+
