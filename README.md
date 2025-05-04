@@ -30,14 +30,13 @@ cd facial-emotion-recognition-cnn
    streamlit run app.py
 ---
 
-## 📊 Dataset
+**## 📊 Dataset**
 
 Commonly used dataset: FER2013 - Facial Expression Recognition
 
 ---
 
-## 🧠 Model Details
-
+**## 🧠 Model Details**
 CNN architecture trained on facial emotion image data
 Input: Grayscale 48x48 facial images
 Output: Emotion labels (e.g., Angry, Happy, Sad, Neutral)
@@ -45,6 +44,6 @@ Trained using train_model.ipynb
 
 ---
 
-## ✍️ Author
+**## ✍️ Author**
 
 Manikanta Padira
